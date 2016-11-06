@@ -18,7 +18,7 @@ showList.removeItem = function (itemIndex) {
 
    }
   };
-showList.message2="Nothing both yet!";
+showList.message2="Nothing bought yet!";
 }
 
 
