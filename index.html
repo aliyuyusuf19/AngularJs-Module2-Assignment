@@ -43,7 +43,7 @@
     <div class="col-md-6" ng-controller="AlreadyBoughtController as showList2">
      <h2>Already Bought:</h2>
      <ul>
-       <li ng-repeat="item in showList2.items">Bought {{item.qauntity}} {{item.package}}(s) {{item.name}}</li>
+       <li ng-repeat="item in showList2.items">Bought {{item.qauntity}} {{item.package}}(s) of {{item.name}}</li>
      </ul>
      <div class="emptyMessage" ng-if="showList.message2">{{showList.message2}}</div>
     </div>
